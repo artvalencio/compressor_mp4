@@ -1,6 +1,7 @@
 # Compressor de vídeos MP4
 
 (C) CPAPI, 2024
+
 Autor: Arthur Valencio
 
 ## O que é
