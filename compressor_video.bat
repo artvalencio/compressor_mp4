@@ -40,9 +40,9 @@ for %%f in (*.mp4) do (
     if "%%~xf"==".mp4" (
 	set newname=compactados/compac_%%f
 	echo Compactando o arquivo %%f
-	:: For compression I'm setting CRF=28, which is very compressed
-	:: CRF (constant rate factor) is a number 0-51 where 
-	:: 0 is lossless, 23 is default and 51 is worst possible quality
+	rem For compression I'm setting CRF=28, which is very compressed
+	rem CRF (constant rate factor) is a number 0-51 where 
+	rem 0 is lossless, 23 is default and 51 is worst possible quality
 	ffmpeg -i %%f -vcodec libx265 -crf 28 !newname!
 	echo Pronto!
 	echo(
