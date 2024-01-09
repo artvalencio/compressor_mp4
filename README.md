@@ -8,6 +8,8 @@ Autor: Arthur Valencio
 
 Uma rotina simplificada para compressão de vídeos
 
+(Batchfile para Windows)
+
 ## Instalação:
 
 1) FFMPEG precisa estar previamente instalado. Pode ser baixado gratuitamente em: https://ffmpeg.org/
