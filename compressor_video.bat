@@ -8,6 +8,7 @@
 
 :: Preamble
 @echo off
+title Compressor de videos MP4
 echo Compressor de videos MP4
 echo (Requer FFMPEG instalado)
 echo (C) CPAPI, 2024
